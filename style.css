@@ -1,0 +1,257 @@
+body {
+    z-index: -1;
+    background-image: url("scorpionlogo.png");
+    background-repeat: round;
+    min-width: 720px;
+
+
+}
+
+h1 {
+
+    font-family: cursive;
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    font-family: "Times New Roman", cursive;
+    color: yellow;
+}
+
+section {
+
+    text-align: center;
+    position: relative;
+    display: block;
+    border-bottom: 1px dotted black;
+
+
+}
+
+
+
+section img {
+    width: 65%;
+    height: 65%;
+    z-index: -1;
+}
+
+.postava1 {
+    background-image: url("icon.jpg");
+    background-size: cover ;
+    position: absolute;
+    top: 52%;
+    left: 23%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+
+}
+
+.tooltip1 {
+    position: absolute;
+    z-index: 2;
+    display: none;
+    width: 250px;
+    height: auto;
+    background-color: #555;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px 0;
+    color: white;
+
+
+}
+
+.postava1:hover .tooltip1 {
+    display: block;
+}
+
+
+.postava2 {
+    background-image: url("icon.jpg");
+    background-size: cover ;
+    position: absolute;
+    top: 57%;
+    left: 30%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+}
+
+.postava2:hover .tooltip1 {
+    display: block;
+}
+
+.postava3 {
+
+    background-image: url("icon.jpg");
+    background-size: cover ;
+    position: absolute;
+    top: 55%;
+    left: 38%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+}
+
+.postava3:hover .tooltip1 {
+    display: block;
+
+}
+
+.postava4 {
+    background-image: url("icon.jpg");
+    background-size: cover ;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+}
+
+.postava4:hover .tooltip1 {
+    display: block;
+}
+
+.postava5 {
+    background-image: url("icon.jpg");
+    background-size: cover ;
+    position: absolute;
+    top: 47%;
+    left: 60%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+}
+
+.postava5:hover .tooltip1 {
+    display: block;
+}
+
+.postava6 {
+    background-image: url("icon.jpg");
+    background-size: cover ;
+    position: absolute;
+    top: 55%;
+    left: 72.5%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+
+}
+
+.postava6:hover .tooltip1 {
+    display: block;
+
+}
+
+.logo {
+    background-image: url("icon.jpg");
+    background-size: cover ;
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+
+}
+
+.logo:hover .tooltip1 {
+    display: block;
+
+}
+
+span{
+    color: yellow;
+    font-size: large;
+}
+h3{
+    color: lime;
+}
+
+.link  {
+    z-index: 2;
+    background-image: url("icon2.jpg");
+    background-size: cover;
+    position: absolute;
+
+    width: 50px;
+    height: 50px;
+    transition: .5s ease;
+    border-radius: 100%;
+
+
+}
+.link1{
+    top: 0%;
+    left: 1%;
+}
+
+.link2{
+    top: 12%;
+    left: 1%;
+}
+.link3{
+    top: 24%;
+    left: 1%;
+}
+.link4{
+    top: 36%;
+    left: 1%;
+}
+
+.link5{
+    top: 48%;
+    left: 1%;
+}
+.link6{
+    top: 60%;
+    left: 1%;
+}
+.link7{
+    top: 72%;
+    left: 1%;
+}
+.link8{
+    top: 84%;
+    left: 1%;
+}
+.tooltip2 img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    display: none;
+    background-size: cover;
+    border-radius: 100%;
+
+
+}
+
+.link:hover .tooltip2 img {
+    opacity: 1;
+    display: block;
+
+}
+footer{
+    z-index: 1;
+    color: red;
+}
+
+
+
+
