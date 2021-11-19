@@ -1,6 +1,6 @@
 body {
     z-index: -1;
-    background-image: url("scorpionlogo.png");
+    background-image: url("img/scorpionlogo.png");
     background-repeat: round;
     min-width: 720px;
 
@@ -29,8 +29,29 @@ section {
     border-bottom: 1px dotted black;
 
 
+
 }
 
+#sc{
+    color: aliceblue;
+}
+
+.table{
+    background: aliceblue;
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid red;
+}
+.sirka{
+    width: 100px;
+}
+
+#zoznamy{
+
+    color: white;
+
+}
 
 
 section img {
@@ -40,7 +61,7 @@ section img {
 }
 
 .postava1 {
-    background-image: url("icon.jpg");
+    background-image: url("img/icon.jpg");
     background-size: cover ;
     position: absolute;
     top: 52%;
@@ -73,7 +94,7 @@ section img {
 
 
 .postava2 {
-    background-image: url("icon.jpg");
+    background-image: url("img/icon.jpg");
     background-size: cover ;
     position: absolute;
     top: 57%;
@@ -90,7 +111,7 @@ section img {
 
 .postava3 {
 
-    background-image: url("icon.jpg");
+    background-image: url("img/icon.jpg");
     background-size: cover ;
     position: absolute;
     top: 55%;
@@ -107,7 +128,7 @@ section img {
 }
 
 .postava4 {
-    background-image: url("icon.jpg");
+    background-image: url("img/icon.jpg");
     background-size: cover ;
     position: absolute;
     top: 45%;
@@ -123,7 +144,7 @@ section img {
 }
 
 .postava5 {
-    background-image: url("icon.jpg");
+    background-image: url("img/icon.jpg");
     background-size: cover ;
     position: absolute;
     top: 47%;
@@ -139,7 +160,7 @@ section img {
 }
 
 .postava6 {
-    background-image: url("icon.jpg");
+    background-image: url("img/icon.jpg");
     background-size: cover ;
     position: absolute;
     top: 55%;
@@ -157,7 +178,7 @@ section img {
 }
 
 .logo {
-    background-image: url("icon.jpg");
+    background-image: url("img/icon.jpg");
     background-size: cover ;
     position: absolute;
     top: 10%;
@@ -177,6 +198,7 @@ section img {
 span{
     color: yellow;
     font-size: large;
+
 }
 h3{
     color: lime;
@@ -184,7 +206,7 @@ h3{
 
 .link  {
     z-index: 2;
-    background-image: url("icon2.jpg");
+    background-image: url("img/icon2.jpg");
     background-size: cover;
     position: absolute;
 
